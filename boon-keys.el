@@ -68,7 +68,7 @@
 
 (define-key boon-command-map "!" 'shell-command)
 (define-key boon-command-map "|" 'shell-command-on-region)
-(define-key boon-command-map "-" 'undo)
+;(define-key boon-command-map "-" 'undo)
 (dolist (number '("0" "1" "2" "3" "4" "5" "6" "7" "8" "9"))
   (define-key boon-command-map number 'digit-argument))
 (define-key boon-command-map "~" 'universal-argument)
